@@ -1,3 +1,79 @@
-body {
-  background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vw;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.top-content {
+    background-color: #fff;
+    padding: 1em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    
+}
+.top-content h1 {
+    color: #67cdcd;
+    margin-bottom: 0.7em;
+}
+.top-content #first-p {
+    color: #a5ff55;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+}
+.top-content #second-p {
+    padding: 0.4em;
+}
+
+.bottom-content {
+    display: flex;
+}
+.bottom-content div {
+    padding: 1em;
+    color: white;
+    width: 50%;
+}
+.bottom-content .right-content {
+    background-color: #67cdcd;
+    border-bottom-right-radius: 0.5em;
+}
+.bottom-content .right-content > h3{
+    margin-bottom: 0.7em;
+}
+.bottom-content .right-content ul {
+    list-style-type: none;
+}
+.bottom-content .left-content {
+    background-color: #33c5cd;
+    border-bottom-left-radius: 0.5em;
+}
+.bottom-content .left-content > h2 {
+    margin-bottom: 0.7em;
+}
+.bottom-content .left-content > p {
+    display: inline;
+}
+span {
+    font-size: 0.5em;
+    margin-bottom: 0.7em;
+}
+button {
+    color: white;
+    background-color: #a5ff55;
+    margin: auto;
+    padding: 0.6em;
+    width: 90%;   
+}
+
